@@ -81,12 +81,12 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
 
-  nuevo=[];
+  
 
-  array.map(obj=>{
+  nuevo= array.filter(obj=>{
 
     if(obj[0]==="a" || obj[0]==="A"){
-      nuevo.push(obj);
+      return obj
     }
 
   })
