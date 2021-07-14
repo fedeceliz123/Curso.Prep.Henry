@@ -162,8 +162,15 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0. Si se pasa un argumento, simplemente devuélvelo
   // Escribe tu código aquí:
 
- 
+ if(arguments.length<1){
+    return 0;
+  } 
+  total=1;
+  for(i=0;i<arguments.length;i++){
+    total=total*arguments[i];
+  }
 
+  return total;
   
 }
 
