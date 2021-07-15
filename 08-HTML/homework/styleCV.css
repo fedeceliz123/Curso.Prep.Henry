@@ -1,0 +1,152 @@
+img{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 1rem;
+}
+
+.titulo{
+    background-color: darkblue;
+    margin: 0px;
+    height: 10vh;
+    text-align: center;
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+
+h1{
+    color:white;
+}
+
+.sdodiv{
+    background-color: gray;
+    align-items: center;
+    width: 100%;
+   border-radius: 1rem;
+   text-align: center;
+   margin: 5px;
+}
+h3{
+    color: white;
+}
+
+h3:hover{
+    color:blue;
+    cursor: pointer;
+    transition: 2s;
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 2S;
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 2S;
+}
+
+
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.descripcion{
+    text-align: center;
+    background-color: cornsilk;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 5px;
+}
+
+p{
+    color: darkblue;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+h2{
+    color: darkblue;
+    
+}
+.conten{
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    height: 400px;
+    width: 100%;
+    border-radius: 1rem;
+    margin: 5px;
+}
+
+body{
+    background-color:#4C4C4C;
+}
+
+.cont1{
+    background-color: blanchedalmond;
+    height: 70%;
+    width: 45%;
+    margin: auto;
+    border-radius: 2rem;
+}
+
+.cont2{
+    background-color: blanchedalmond;
+    
+    width: 45%;
+    margin: auto;
+    border-radius: 2rem;
+    height: 70%;
+}
+
+h4{
+    text-align: center;
+    font-size: 30px;
+    color: darkblue;
+}
+
+
+ul li{
+    font-size: 25px;
+    margin: 10px;
+    color: darkcyan;
+}
+
+.skill{
+    display: flex;
+    flex-direction: row;
+    background-color: darkcyan;
+ 
+    width: 100%;
+    margin: 5px;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 80%;
+    width: 45%;
+    margin: 10px;
+}
+.icon{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.sp{
+    font-size: 25px;
+    color: white;
+}
